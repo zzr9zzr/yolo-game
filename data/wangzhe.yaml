@@ -1,0 +1,9 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: /civi/yolov5/wangzhe/images/train  # 128 images
+val: /civi/yolov5/wangzhe/images/train  # 128 images
+
+# number of classes
+nc: 8
+
+# class names
+names: [ 'hero', 'soldier','buff','grass','wild monster','dragon','tower','crystal']
